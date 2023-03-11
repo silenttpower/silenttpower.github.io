@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silent Power | Haberler</title>
+    <style>
+        body{
+            margin: 0;
+            background-color: seagreen;
+            font-family: 'Roboto Condensed', sans-serif;
+            overflow-x: hidden;
+        }
+
+        /**********NavbarStart**********/
+        .navbar {
+            list-style-type: none;
+            overflow: hidden;
+            height: 50%;
+            background-color: black;
+        }
+
+        .navbar > li a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 15px 40px;
+            text-decoration: none;
+            width: 100px;
+            height: 20px;
+        }
+
+        .navbar>li a:hover {
+            background-color: seagreen;
+        }
+        /**********NavbarEnd**********/
+
+
+        /**********MainStart**********/
+        .title{
+            text-align: center;
+            margin: 40px;
+            color: white;
+            font-size: 75px;
+        }
+
+        .news{
+            display: table-caption;
+            background-color: seagreen;
+            padding: 20px;
+            border-radius: 20px;
+            margin: 10px;
+            margin-bottom: 50px;
+        }
+
+        .news>img{
+            display: inline;
+            width: 400px;
+            height: 250px;
+            border-radius: 20px;
+        }
+
+        .newstext{
+            float: center;
+            font-size: 50px;
+            text-align: center;
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+
+        .newsgroup{
+            margin-bottom: 100px;
+            background-color: white;
+            border-radius: 20px;
+            padding-bottom: 10px;
+            display: flex;
+            overflow-y: scroll;
+            /* To turn off text selection while scrolling the scrollbar */
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -o-user-select: none;
+            user-select: none;
+        }
+        /**********MainEnd**********/
+
+
+        /**********FooterStart**********/
+        footer {
+            text-align: center;
+            display: inline-block;
+            width: 100%;
+            background-color: gray;
+            padding: 30px;
+        }
+        /**********FooterEnd**********/
+
+
+        /**********MobileViewStart**********/
+         @media screen and (max-width: 1160px) {
+            body{
+                background-color: seagreen;
+            }
+
+            .newsgroup{
+                border-radius: 0px;
+                margin-bottom: 250px;
+            }
+
+            .news{
+                margin: 10px;
+                border-radius: 0px;
+                margin-right: 5px;
+                background-color: seagreen;
+            }
+            .navbar{
+                position: relative;
+            }
+
+            .title{
+                font-size: 50px;
+                color: black;
+            }
+
+            footer{
+                padding: 0px;
+            }
+         }
+        /**********MobileViewEnd**********/
+    </style>
+</head>
+
+<body>
+    <!--NavbarStart-->
+    <nav class="navbar">
+        <li>
+            <a href="index.html">Ana Sayfa</a>
+        </li>
+        <li>
+            <a href="news.html">Haberler</a>
+        </li>
+        <li>
+            <a href="index.html#cars">Otomobiller</a>
+        </li>
+        <li>
+            <a href="about-us.html">Hakkımızda</a>
+        </li>
+        <li>
+            <a href="index.html#communication">İletişim</a>
+        </li>
+    </nav>
+    <!--NavbarEnd-->
+
+
+    <!--MainStart-->
+    <main>
+            <h1 class="title">
+        Haberler
+    </h1>
+        <div class="newsgroup">
+            <div class="news">
+                <img width="300" src="https://cdn.webtekno.com/media/cache/showcase_small_v2/article/132676/tesla-model-s-model-araclarina-indirim-yapti-1678124786.jpg" alt="">
+                <h3>
+                    Tesla, Bir Kez Daha Araçlarına İndirim Yaptı: Model S ve Model X Fiyatları Binlerce Dolar Düştü!
+                </h3>
+                <p>
+                    <a href="news1.html">Haberin Devamı...</a>
+                </p>
+            </div>
+    
+            <div class="news">
+                <img width="300" src="https://ares.shiftdelete.net/2023/03/xiaomi-ev.webp" alt="">
+                <h3>
+                    Xiaomi elektrikli otomobiller için geri sayım!
+                </h3>
+                <p>
+                    <a href="news2.html">Haberin Devamı...</a>
+                </p>
+            </div>
+    
+            <div class="news">
+                <img width="300" src="https://ares.shiftdelete.net/2023/03/Leapmotor-T03-2-2048x1365.jpg" alt="">
+                <h3>
+                    Uygun fiyatlı Leapmotor elektrikli otomobiller Türkiye’ye geliyor!
+                </h3>
+                <p>
+                    <a href="news3.html">Haberin Devamı...</a>
+                </p>
+            </div>
+            
+            <div class="news">
+                <img width="300" src="https://www.webtekno.com/images/editor/default/0003/91/c447223ccace080e35b36855101ef56855622d94.jpeg" alt="">
+                <h3>
+                    Dünyanın En Çok Satan Elektrikli Otomobil Markası Türkiye'ye Geliyor (Tesla'yı Bile Geçmişti)
+                </h3>
+                <p>
+                    <a href="news4.html">Haberin Devamı...</a>
+                </p>
+            </div>
+    
+            <div class="news">
+                <img width="300" src="https://ares.shiftdelete.net/2023/02/tesla-pil-uretimi-anlasma-4.jpg" alt="">
+                <h3>
+                    Tesla, sonunda gaza bastı: 3 milyar dolarlık anlaşma!
+                </h3>
+                <p>
+                    <a href="news5.html">Haberin Devamı...</a>
+                </p>
+            </div>
+    
+            <div class="news">
+                <img width="300" src="https://cdn.webtekno.com/media/cache/showcase_small_v2/article/132468/1000-beygir-elektrikli-araba-alfa-romeo-giulia-1677421467.jpg" alt="">
+                <h3>
+                    Alfa Romeo Gulia, Yeni Jenerasyonda Elektrikli Olacak (Hem de 1000 Beygir Güç Seçeneğiyle)
+                </h3>
+                <p>
+                    <a href="news6.html">Haberin Devamı...</a>
+                </p>
+            </div>
+        </div>
+    </main>
+    <!--MainEnd-->
+
+
+    <!--FooterStart-->
+    <footer>
+        <div>
+            <h2><b>Silent Power / 2023</b></h2>
+        </div>
+    </footer>
+    <!--FooterEnd-->
+</body>
+</html>

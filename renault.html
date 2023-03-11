@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silent Power | Renault</title>
+    <style>
+        body{
+            margin: 0;
+            background-color: seagreen;
+            font-family: 'Roboto Condensed', sans-serif;
+            overflow-x: hidden;
+        }
+
+        /**********NavbarStart**********/
+        .navbar {
+            list-style-type: none;
+            overflow: hidden;
+            background-color: black;
+            position: sticky;
+            top: 0;
+            width: 100%;
+        }
+
+        .navbar > li a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 15px 40px;
+            text-decoration: none;
+            width: 100px;
+            height: 20px;
+        }
+
+        .navbar>li a:hover {
+            background-color: seagreen;
+        }
+        /**********NavbarEnd**********/
+
+
+        /**********MainStart**********/
+        .title{
+            text-align: center;
+            margin: 40px;
+            color: white;
+            font-size: 75px;
+        }
+
+        .heading2{
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .car{
+            display: table-caption;
+            background-color: seagreen;
+            padding: 20px;
+            border-radius: 20px;
+            margin: 10px;
+            margin-bottom: 50px;
+        }
+
+        .car>img{
+            display: inline;
+            width: 400px;
+            height: 250px;
+            border-radius: 20px;
+        }
+
+        .cartext{
+            float: center;
+            font-size: 50px;
+            text-align: center;
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+
+        .cargroup{
+            background-color: white;
+            border-radius: 20px;
+            padding-bottom: 10px;
+            display: flex;
+            overflow-y: scroll;
+            /* To turn off text selection while scrolling the scrollbar */
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -o-user-select: none;
+            user-select: none;
+        }
+        /**********MainEnd**********/
+
+
+        /**********FooterStart**********/
+        footer {
+            text-align: center;
+            display: inline-block;
+            width: 100%;
+            background-color: gray;
+            padding: 30px;
+        }
+        /**********FooterEnd**********/
+
+        /**********MobileViewStart**********/
+         @media screen and (max-width: 1160px) {
+            body{
+                background-color: white;
+            }
+
+            .cargroup{
+                border-radius: 0px;
+            }
+
+            .car{
+                margin: 0px;
+                border-radius: 0px;
+                margin-right: 5px;
+            }
+            .navbar{
+                position: relative;
+            }
+
+            .title{
+                font-size: 50px;
+                color: black;
+            }
+
+            footer{
+                padding: 0px;
+            }
+         }
+        /**********MobileViewStart**********/
+    </style>
+</head>
+
+<body>
+    <!--NavbarStart-->
+    <nav class="navbar">
+        <li>
+            <a href="index.html">Ana Sayfa</a>
+        </li>
+        <li>
+            <a href="news.html">Haberler</a>
+        </li>
+        <li>
+            <a href="index.html#cars">Otomobiller</a>
+        </li>
+        <li>
+            <a href="about-us.html">Hakkımızda</a>
+        </li>
+        <li>
+            <a href="index.html#communication">İletişim</a>
+        </li>
+    </nav>
+    <!--NavbarEnd-->
+
+
+    <!--MainStart-->
+    <main>
+            <h1 class="title">
+        Renault Otomobiller
+    </h1>
+        <div class="cargroup">
+
+
+            <!--Zoe-->
+            <div class="car">
+                <img width="300" height="200" src="https://www.renault.com.tr/agg/vn/unique/ONE_DACIA_PP_LARGE_DENSITY1/r_brandSite_carPicker_1.png?uri=https%3A%2F%2Ftr.co.rplug.renault.com%2Fproduct%2Fmodel%2FZOE%2Fzoe%2Fc%2FA-ENS_0MDL2P1SERIELIM1_-TERQT" alt="">
+                <h2 class="heading2">
+                    Zoe
+                </h2>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Güç ve Hız
+                    </h2>
+                    <ul>
+                        <li><b>Motor Gücü : </b>99 kW</li>
+                        <li><b>Tork : </b>245 Nm</li>
+                        <li><b>Azami Hız : </b>140 km/h</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Batarya ve Şarj
+                    </h2>
+                    <ul>
+                        <li><b>Batara : </b>52 kWh</li>
+                        <li><b>Menzil : </b>386 km</li>
+                        <li><b>DC Şarj Hızı  : </b>50 kW</li>
+                        <li><b>AC Şarj Hızı : </b>22 kW</li>
+                        <li><b>Ortalama Tüketim (kWh/100km) : </b>13.5 kWh</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Araç Ölçüleri
+                    </h2>
+                    <ul>
+                        <li><b>Ağırlık : </b>1502 kg</li>
+                        <li><b>Bagaj Hacmi : </b>388 L</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Ekstra Özellikler
+                    </h2>
+                    <ul>
+                        <li><b>Araç Türü : </b>Hatchback</li>
+                        <li><b>Çıkış Tarihi : </b>2022</li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <!--Megane E-Tech-->
+            <div class="car">
+                <img width="300" height="200" src="https://www.renault.com.tr/agg/vn/unique/ONE_DACIA_PP_LARGE_DENSITY1/r_brandSite_carPicker_1.png?uri=https%3A%2F%2Fcdn.group.renault.com%2Fpackshots%2Frenault-megane-e-tech-electric" alt="">
+                <h2 class="heading2">
+                    Megane E-Tech
+                </h2>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Güç ve Hız
+                    </h2>
+                    <ul>
+                        <li><b>Motor Gücü : </b>95 kW</li>
+                        <li><b>Tork : </b>250 Nm</li>
+                        <li><b>Azami Hız : </b>160 km/h</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Batarya ve Şarj
+                    </h2>
+                    <ul>
+                        <li><b>Batara : </b>40 kWh</li>
+                        <li><b>Menzil : </b>300 km</li>
+                        <li><b>DC Şarj Hızı : </b>100 kW</li>
+                        <li><b>AC Şarj Hızı : </b>7 kW</li>
+                        <li><b>Ortalama Tüketim (kWh/100km) : </b>13.3 kWh</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Araç Ölçüleri
+                    </h2>
+                    <ul>
+                        <li><b>Ağırlık : </b>1624 kg</li>
+                        <li><b>Bagaj Hacmi : </b>210 L</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Ekstra Özellikler
+                    </h2>
+                    <ul>
+                        <li><b>Araç Türü : </b>SUV</li>
+                        <li><b>Çıkış Tarihi : </b>2022</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--MainEnd-->
+
+    
+    <!--FooterStart-->
+    <footer>
+        <div>
+            <h2><b>Silent Power / 2023</b></h2>
+        </div>
+    </footer>
+    <!--FooterEnd-->
+</body>
+</html>

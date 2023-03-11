@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silent Power | Volvo</title>
+    <style>
+        body{
+            margin: 0;
+            background-color: seagreen;
+            font-family: 'Roboto Condensed', sans-serif;
+            overflow-x: hidden;
+        }
+
+        /**********NavbarStart**********/
+        .navbar {
+            list-style-type: none;
+            overflow: hidden;
+            background-color: black;
+            position: sticky;
+            top: 0;
+            width: 100%;
+        }
+
+        .navbar > li a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 15px 40px;
+            text-decoration: none;
+            width: 100px;
+            height: 20px;
+        }
+
+        .navbar>li a:hover {
+            background-color: seagreen;
+        }
+        /**********NavbarEnd**********/
+
+
+        /**********MainStart**********/
+        .title{
+            text-align: center;
+            margin: 40px;
+            color: white;
+            font-size: 75px;
+        }
+
+        .heading2{
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .car{
+            display: table-caption;
+            background-color: seagreen;
+            padding: 20px;
+            border-radius: 20px;
+            margin: 10px;
+            margin-bottom: 50px;
+        }
+
+        .cartext{
+            float: center;
+            font-size: 50px;
+            text-align: center;
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+
+        .cargroup{
+            background-color: white;
+            border-radius: 20px;
+            padding-bottom: 10px;
+            display: flex;
+            overflow-y: scroll;
+            /* To turn off text selection while scrolling the scrollbar */
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -o-user-select: none;
+            user-select: none;
+        }
+        /**********MainEnd**********/
+
+
+        /**********FooterStart**********/
+        footer {
+            text-align: center;
+            display: inline-block;
+            width: 100%;
+            background-color: gray;
+            padding: 30px;
+        }
+        /**********FooterEnd**********/
+
+
+        /**********MobileViewStart**********/
+         @media screen and (max-width: 1160px) {
+            body{
+                background-color: white;
+            }
+
+            .cargroup{
+                border-radius: 0px;
+            }
+
+            .car{
+                margin: 0px;
+                border-radius: 0px;
+                margin-right: 5px;
+            }
+            .navbar{
+                position: relative;
+            }
+
+            .title{
+                font-size: 50px;
+                color: black;
+            }
+
+            footer{
+                padding: 0px;
+            }
+         }
+        /**********MobileViewStart**********/
+    </style>
+</head>
+
+<body>
+    <!--NavbarStart-->
+    <nav class="navbar">
+        <li>
+            <a href="index.html">Ana Sayfa</a>
+        </li>
+        <li>
+            <a href="news.html">Haberler</a>
+        </li>
+        <li>
+            <a href="index.html#cars">Otomobiller</a>
+        </li>
+        <li>
+            <a href="about-us.html">Hakkımızda</a>
+        </li>
+        <li>
+            <a href="index.html#communication">İletişim</a>
+        </li>
+    </nav>
+    <!--NavbarEnd-->
+
+
+    <!--MainStart-->
+    <main>
+            <h1 class="title">
+        Volvo Otomobiller
+    </h1>
+        <div class="cargroup">
+
+
+            <!--C40 Recharge-->
+            <div class="car">
+                <img width="464" height="190" src="https://www.volvocars.com/images/v/-/media/project/contentplatform/data/media/navigation/my23/c40-electric.png?h=190&iar=0&w=464" alt="">
+                <h2 class="heading2">
+                    C40 Recharge
+                </h2>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Güç ve Hız
+                    </h2>
+                    <ul>
+                        <li><b>Motor Gücü : </b>300 kW</li>
+                        <li><b>Tork : </b>660 Nm</li>
+                        <li><b>Azami Hız : </b>180 km/h</li>
+                        <li><b>0-100 (km/s) : </b>4.7 saniye</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Batarya ve Şarj
+                    </h2>
+                    <ul>
+                        <li><b>Batara : </b>75 kWh</li>
+                        <li><b>Menzil : </b>447 km</li>
+                        <li><b>DC Şarj Hızı : </b>11 kW</li>
+                        <li><b>AC Şarj Hızı : </b>150 kW</li>
+                        <li><b>Ortalama Tüketim (kWh/100km) : </b>20 kWh</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Araç Ölçüleri
+                    </h2>
+                    <ul>
+                        <li><b>Ağırlık : </b>2185 kg</li>
+                        <li><b>Bagaj Hacmi : </b>413 L</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Ekstra Özellikler
+                    </h2>
+                    <ul>
+                        <li><b>Araç Türü : </b>SUV</li>
+                        <li><b>Çıkış Tarihi : </b>2021</li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <!--EX 90-->
+            <div class="car">
+                <img width="532" height="192"  src="https://www.volvocars.com/images/v/-/media/project/contentplatform/data/media/navigation/my24/ex90.png?h=192&iar=0&w=532" alt="">
+                <h2 class="heading2">
+                    EX 90 
+                </h2>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Güç ve Hız
+                    </h2>
+                    <ul>
+                        <li><b>Motor Gücü : </b>380 kW</li>
+                        <li><b>Tork : </b>910 Nm</li>
+                        <li><b>Azami Hız : </b>180 km/h</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Batarya ve Şarj
+                    </h2>
+                    <ul>
+                        <li><b>Batara : </b>107 kWh</li>
+                        <li><b>Menzil : </b>590 km</li>
+                        <li><b>DC Şarj Hızı : </b>250 kW</li>
+                        <li><b>AC Şarj Hızı : </b>11 kW</li>
+                        <li><b>Ortalama Tüketim (kWh/100km) : </b>18.1 kWh</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Araç Ölçüleri
+                    </h2>
+                    <ul>
+                        <li><b>Ağırlık : </b>2818 kg</li>
+                        <li><b>Bagaj Hacmi : </b>655 L</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Ekstra Özellikler
+                    </h2>
+                    <ul>
+                        <li><b>Araç Türü : </b>SUV</li>
+                        <li><b>Çıkış Tarihi : </b>2023</li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <!--XC40Recharge-->
+            <div class="car">
+                <img width="466" height="192"  src="https://www.volvocars.com/images/v/-/media/project/contentplatform/data/media/navigation/my23/xc40-electric.png?h=192&iar=0&w=466" alt="">
+                <h2 class="heading2">
+                    XC 40 Recharge 
+                </h2>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Güç ve Hız
+                    </h2>
+                    <ul>
+                        <li><b>Motor Gücü : </b>231 kW</li>
+                        <li><b>Tork : </b>330 Nm</li>
+                        <li><b>Azami Hız : </b>160 km/h</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Batarya ve Şarj
+                    </h2>
+                    <ul>
+                        <li><b>Batara : </b>69 kWh</li>
+                        <li><b>Menzil : </b>423 km</li>
+                        <li><b>DC Şarj Hızı : </b>150 kW</li>
+                        <li><b>AC Şarj Hızı : </b>11 kW</li>
+                        <li><b>Ortalama Tüketim (kWh/100km) : </b>18.7 kWh</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Araç Ölçüleri
+                    </h2>
+                    <ul>
+                        <li><b>Ağırlık : </b>2030 kg</li>
+                        <li><b>Bagaj Hacmi : </b>545 L</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Ekstra Özellikler
+                    </h2>
+                    <ul>
+                        <li><b>Araç Türü : </b>SUV</li>
+                        <li><b>Çıkış Tarihi : </b>2022</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--MainEnd-->
+
+    
+    <!--FooterStart-->
+    <footer>
+        <div>
+            <h2><b>Silent Power / 2023</b></h2>
+        </div>
+    </footer>
+    <!--FooterEnd-->
+</body>
+</html>

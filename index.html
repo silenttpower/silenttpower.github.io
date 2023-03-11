@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silent Power</title>
+    <style>
+        body {
+            background-color: seagreen;
+            margin: 0px;
+            padding: 0px;
+            display: block;
+            font-family: 'Roboto Condensed', sans-serif;
+            font-size: 20px;
+            overflow-x: hidden;
+        }
+
+        .mediumtext{
+            font-size:medium;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 20px;
+            margin: 10px;
+            text-align: center;
+        }
+
+
+        /**********HeaderStart**********/
+        header{
+            background-color: darkgrey;
+            padding: 50px;
+            text-align: center;  
+        }
+
+        header > h1{
+            color: white;
+            font-size: 40px;
+        }
+
+        header > p{
+            font-size: 18px;
+        }
+
+        /**********HeaderEnd**********/
+
+
+
+        /**********NavbarStart**********/
+        .navbar {
+            list-style-type: none;
+            overflow: hidden;
+            background-color: black;
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+        }
+
+        .navbar > li a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 15px 40px;
+            text-decoration: none;
+            width: 100px;
+            height: 20px;
+        }
+
+        .navbar>li a:hover {
+            background-color: seagreen;
+        }
+        /**********NavbarEnd**********/
+
+
+        /**********NewsStart**********/
+        .news{
+            float: left;
+            width: 60%;
+        }
+
+        .news>img{
+            float: left;
+            border-radius: 20px;
+            margin: 30px;
+        }
+
+        .newstext{
+            display: block;
+            text-align: left;
+            margin-bottom: 100px;
+            font-family: 'Roboto Condensed', sans-serif;
+
+        }
+        /**********NewsEnd**********/
+
+
+        /**********CarsStart**********/
+        .cars{
+            float: left;
+            width: 60%;
+            margin-bottom: 200px;
+        }
+
+        .brand{
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+            float: left;
+            border: thick double seagreen;
+        } 
+
+        /**********CarsEnd**********/
+
+
+
+        /**********AboutUsStart**********/
+        .about-us{
+            display: inline-block;
+            width: 30%;
+            background-color: #f1f1f1;
+            padding-left: 20px;
+        }
+        /**********AboutUsEnd**********/
+
+
+        /**********CommunicationStart**********/
+        .communication{
+            display: inline-block;
+            width: 30%;
+            background-color: #f1f1f1;
+            padding-left: 20px;
+        }
+
+        .link{
+            font-size: 10px;
+            width: 120px;
+            height: 120px;
+            margin: 10px;
+            float: left;
+            border: thick double black;
+        } 
+
+        .link>img{
+            width: 50px;
+        }
+        /**********CommunicationEnd**********/
+
+
+        /**********FooterStart**********/
+        footer {
+            text-align: center;
+            display: inline-block;
+            width: 100%;
+            background-color: gray;
+            padding: 30px;
+        }
+        /**********FooterEnd**********/
+
+
+        /**********MobileViewStart**********/
+        @media screen and (max-width: 1220px) {
+            .navbar{
+                position: relative;
+            }
+
+            .card{
+                width: auto;
+            }
+
+            .news>img{
+                width: 90%;
+                margin-right:20px;
+            }
+
+            .newstext{
+                float: none;
+                margin: 20px;
+            }
+
+            .cars{
+                margin-bottom: 15px;
+            }
+            .brand{
+                width: 95%;
+                height: 200px;
+            }
+
+            .link{
+                width: 300px;
+                height: 200px;
+            }
+
+            .link>img{
+                width: 90px;
+            }
+
+            footer{
+                padding: 0px;
+            }
+        }
+        /**********MobileViewEnd**********/
+    </style>
+</head>
+<body>
+    <!---HeaderStart-->
+    <header>
+        <h1>
+            Silent Power
+        </h1>
+        <p>
+            Elektrikli Otomobil Platformu
+        </p>
+    </header>
+    <!--HeaderEnd-->
+
+
+    <!--NavbarStart-->
+    <nav class="navbar">
+        <li>
+            <a href="index.html">Ana Sayfa</a>
+        </li>
+        <li>
+            <a href="news.html">Haberler</a>
+        </li>
+        <li>
+            <a href="#cars">Otomobiller</a>
+        </li>
+        <li>
+            <a href="about-us.html">Hakkımızda</a>
+        </li>
+        <li>
+            <a href="index.html#communication">İletişim</a>
+        </li>
+
+    </nav>
+    <!--NavbarEnd-->
+
+
+    <!--MainStart-->
+    <main>
+        <!--NewsStart-->
+        <div class="news card">
+            <h1>Haberler</h1>
+            <hr>
+            <img width="200" src="https://ares.shiftdelete.net/2023/02/tesla-pil-uretimi-anlasma-4.jpg" alt="">
+            <div class="newstext">
+                <h3>Tesla, sonunda gaza bastı: 3 milyar dolarlık anlaşma!</h3>
+                <p class="mediumtext">Tesla, Güney Kore merkezli pil katot malzemeleri üreten L&F ile 3 milyar dolarlık yeni bir anlaşma imzaladı. <a target="_blank" href="news5.html">Haberin devamı için tıklayın.</a></p>
+            </div>
+            <hr>
+            <img width="200" src="https://www.webtekno.com/images/editor/default/0003/91/c447223ccace080e35b36855101ef56855622d94.jpeg" alt="">
+            <div class="newstext">
+                <h3>Dünyanın En Çok Satan Elektrikli Otomobil Markası Türkiye'ye Geliyor (Tesla'yı Bile Geçmişti)</h3>
+                <p class="mediumtext">Çinli otomobil üreticisi BYD'nin "ALJ Türkiye" aracılığıyla Türkiye pazarına giriş yapacağı açıklandı. <a target="_blank" href="news4.html">Haberin devamı için tıklayın.</a></p>
+            </div>
+            <hr>
+            <img width="200" src="https://cdn.webtekno.com/media/cache/showcase_small_v2/article/132468/1000-beygir-elektrikli-araba-alfa-romeo-giulia-1677421467.jpg" alt="">
+            <div class="newstext">
+                <h3>Alfa Romeo Gulia, Yeni Jenerasyonda Elektrikli Olacak (Hem de 1000 Beygir Güç Seçeneğiyle)</h3>
+                <p class="mediumtext">Sevilen araba markası Alfa Romeo’nun unutulmaz araçlarından biri olan Giulia, bir elektrikli otomobil olarak yeniden doğacak. <a target="_blank" href="news6.html">Haberin devamı için tıklayın.</a></p>
+            </div>
+        </div>
+        <!--NewsEnd-->
+
+
+        <!--Cars-->
+        <div id="cars" class="cars card">
+            <h1>Türkiye'de En Çok Satan Elektrikli Otomobiller</h1>
+            <hr>
+            <div class="brands">
+                <div class="brand">
+                    <h2>
+                        <a href="tesla.html">Tesla</a>
+                    </h2>
+                    <img width="100" src="img/tesla.png" alt="Tesla Logo">
+                </div>
+                <div class="brand">
+                    <h2>
+                        <a href="bmw.html">BMW</a>
+                    </h2>
+                    <img width="100" src="img/bmw.png" alt="BMW Logo">
+                </div>
+                <div class="brand">
+                    <h2>
+                        <a href="mercedes.html">Mercedes</a>
+                    </h2>
+                    <img width="100" src="img/mercedes.png" alt="Mercedes Logo">
+                </div>
+                <div class="brand">
+                    <h2>
+                        <a href="jaguar.html">Jaguar</a>
+                    </h2>
+                    <img width="100" src="img/jaguar.png" alt="Jaguar Logo">
+                </div>
+ 
+                <div class="brand">
+                    <h2>
+                        <a href="renault.html">Renault</a>
+                    </h2>
+                    <img width="100" src="img/renault.png" alt="Renault Logo">
+                </div>
+                <div class="brand">
+                    <h2>
+                        <a href="hyundai.html">Hyundai</a>
+                    </h2>
+                    <img width="100" src="img/hyundai.png" alt="Hyundai Logo">
+                </div>
+                <div class="brand">
+                    <h2>
+                        <a href="kia.html">KIA</a>
+                    </h2>
+                    <img width="100" src="img/kia.png" alt="KIA Logo">
+                </div>
+                <div class="brand">
+                    <h2>
+                        <a href="citroen.html">Citroën</a>
+                    </h2>
+                    <img width="100" src="img/citroen.png" alt="Citroen Logo">
+                </div>
+                <div class="brand">
+                    <h2>
+                        <a href="volvo.html">Volvo</a>
+                    </h2>
+                    <img width="100" src="img/volvo.png" alt="Volvo Logo">
+                </div>
+                <div class="brand">
+                    <h2>
+                        <a href="mini.html">Mini</a>
+                    </h2>
+                    <img width="100" src="img/mini.png" alt="Mini Logo">
+                </div>
+            </div>
+        </div>
+        <!--CarsEnd-->
+
+        
+        <!--About-UsStart-->
+        <div class="about-us card">
+            <h2>Hakkımızda</h2>
+            <hr>
+            <p>Bu site 2023 yılında, elektrikli araçlar hakkında insanları daha fazla bilgilendirmek için kurulmuştur. EPA verilerine göre 2010 küresel sera gazı emisyonlarının %14'ü bu sektörden kaynaklanan sera gazı emisyonları öncelikle karayolu, demiryolu, hava ve deniz taşımacılığı için yakılan fosil yakıtları içermektedir. <a href="about-us.html">Devamını okumak için tıklayınız...</a></p>
+        </div>
+        <!--AboutUsEnd-->
+
+
+        <!--CommunicationStart-->
+        <div id="communication" class="communication card">
+            <h1>İletişim</h1>
+            <hr>
+            <div class="links">
+                <div class="link">
+                    <h2>
+                        <a target="_blank" href="https://www.instagram.com/eymenyilmazturkk/">Instagram</a>
+                    </h2>
+                    <img src="img/instagram.png" alt="Instagram Logo">
+                </div>
+                <div class="link">
+                    <h2>
+                        <a target="_blank" href="https://twitter.com/eymenyilmazturk">Twitter</a>
+                    </h2>
+                    <img src="img/twitter.png" alt="Twitter Logo">
+                </div>
+                <div class="link">
+                    <h2>
+                        <a target="_blank" href="https://github.com/eymenyilmazturk">GitHub</a>
+                    </h2>
+                    <img src="img/github.png" alt="GitHub Logo">
+                </div>
+                <div class="link">
+                    <h2>
+                        <a target="_blank" href="https://www.linkedin.com/in/eymenyilmazturk/">LinkedIn</a>
+                    </h2>
+                    <img src="img/linkedın.png" alt="LınkedIn Logo">
+                </div>
+ 
+                <div class="link">
+                    <h2>
+                        <a target="_blank" href="mailto:eymenyilmazturk34@gmail.com">Mail</a>
+                    </h2>
+                    <img src="img/mail.png" alt="Mail Logo">
+                </div>
+            </div>
+        </div>
+        <!--CommunicationEnd-->
+    </main>
+    <!--MainEnd-->
+
+
+    <!--FooterStart-->
+    <footer>
+        <div>
+            <h2><b>Silent Power / 2023</b></h2>
+        </div>
+    </footer>
+    <!--FooterEnd-->
+</body>
+</html>
