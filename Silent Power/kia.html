@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silent Power | KIA</title>
+    <style>
+        body{
+            margin: 0;
+            background-color: seagreen;
+            font-family: 'Roboto Condensed', sans-serif;
+            overflow-x: hidden;
+        }
+
+
+        /**********NavbarStart**********/
+        .navbar {
+            list-style-type: none;
+            overflow: hidden;
+            background-color: black;
+            position: sticky;
+            top: 0;
+            width: 100%;
+        }
+
+        .navbar > li a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 15px 40px;
+            text-decoration: none;
+            width: 100px;
+            height: 20px;
+        }
+
+        .navbar>li a:hover {
+            background-color: seagreen;
+        }
+        /**********NavbarEnd**********/
+
+
+        /**********MainStart**********/
+        .title{
+            text-align: center;
+            margin: 40px;
+            color: white;
+            font-size: 75px;
+        }
+
+        .heading2{
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .car{
+            display: table-caption;
+            background-color: seagreen;
+            padding: 20px;
+            border-radius: 20px;
+            margin: 10px;
+            margin-bottom: 50px;
+        }
+
+        .car>img{
+            display: inline;
+            border-radius: 20px;
+        }
+
+        .cartext{
+            float: center;
+            font-size: 50px;
+            text-align: center;
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+
+        .cargroup{
+            background-color: white;
+            border-radius: 20px;
+            padding-bottom: 10px;
+            display: flex;
+            overflow-y: scroll;
+            /* To turn off text selection while scrolling the scrollbar */
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -o-user-select: none;
+            user-select: none;
+        }
+        /**********MainEnd**********/
+
+
+        /**********FooterStart**********/
+        footer {
+            text-align: center;
+            display: inline-block;
+            width: 100%;
+            background-color: gray;
+            padding: 30px;
+        }
+        /**********FooterEnd**********/
+
+
+        /**********MobileViewStart**********/
+         @media screen and (max-width: 1160px) {
+            body{
+                background-color: white;
+            }
+
+            .cargroup{
+                border-radius: 0px;
+            }
+
+            .car{
+                margin: 0px;
+                border-radius: 0px;
+                margin-right: 5px;
+            }
+            .navbar{
+                position: relative;
+            }
+
+
+            .title{
+                font-size: 50px;
+                color: black;
+            }
+
+            footer{
+                padding: 0px;
+            }
+         }
+        /**********MobileViewEnd**********/ 
+    </style>
+</head>
+
+<body>
+    <!--NavbarStart-->
+    <nav class="navbar">
+        <li>
+            <a href="index.html">Ana Sayfa</a>
+        </li>
+        <li>
+            <a href="news.html">Haberler</a>
+        </li>
+        <li>
+            <a href="index.html#cars">Otomobiller</a>
+        </li>
+        <li>
+            <a href="about-us.html">Hakkımızda</a>
+        </li>
+        <li>
+            <a href="index.html#communication">İletişim</a>
+        </li>
+    </nav>
+    <!--NavbarEnd-->
+
+
+    <!--MainStart-->
+    <main>
+            <h1 class="title">
+        KIA Otomobiller
+    </h1>
+        <div class="cargroup">
+
+
+            <!--Niro EV-->
+            <div class="car">
+                <img width="491" height="260" src="https://www.kia.com/content/dam/kwcms/tr/tr/images/showroom/niro-ev/niro-ev-thumbnail.png" alt="">
+                <h2 class="heading2">
+                    Niro EV
+                </h2>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Güç ve Hız
+                    </h2>
+                    <ul>
+                        <li><b>Motor Gücü : </b>150 kW</li>
+                        <li><b>Tork : </b>255 Nm</li>
+                        <li><b>Azami Hız : </b>167 km/h</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Batarya ve Şarj
+                    </h2>
+                    <ul>
+                        <li><b>Batara : </b>64.8 kWh</li>
+                        <li><b>Menzil : </b>463 km</li>
+                        <li><b>DC Şarj Hızı : </b>100 kW</li>
+                        <li><b>AC Şarj Hızı : </b>11 kW</li>
+                        <li><b>Ortalama Tüketim (kWh/100km) : </b>15.7 kWh</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Araç Ölçüleri
+                    </h2>
+                    <ul>
+                        <li><b>Ağırlık : </b>1739 kg</li>
+                        <li><b>Bagaj Hacmi : </b>475 L</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Ekstra Özellikler
+                    </h2>
+                    <ul>
+                        <li><b>Araç Türü : </b>SUV</li>
+                        <li><b>Çıkış Tarihi : </b>2022</li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <!--EV6-->
+            <div class="car">
+                <img width="491" height="260" src="https://www.kia.com/content/dam/kwcms/gt/en/images/showroom/EV6-CV-22My/kia-ev6-22my.png" alt="">
+                <h2 class="heading2">
+                    EV6
+                </h2>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Güç ve Hız
+                    </h2>
+                    <ul>
+                        <li><b>Motor Gücü : </b>239 kW</li>
+                        <li><b>Tork : </b>605 Nm</li>
+                        <li><b>Azami Hız : </b>188 km/h</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Batarya ve Şarj
+                    </h2>
+                    <ul>
+                        <li><b>Batara : </b>77.4 kWh</li>
+                        <li><b>Menzil : </b>506 km</li>
+                        <li><b>DC Şarj Hızı : </b>350 kW</li>
+                        <li><b>AC Şarj Hızı : </b>11 kW</li>
+                        <li><b>Ortalama Tüketim (kWh/100km) : </b>17.2 kWh</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Araç Ölçüleri
+                    </h2>
+                    <ul>
+                        <li><b>Ağırlık : </b>2106 kg</li>
+                        <li><b>Bagaj Hacmi : </b>520 L</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Ekstra Özellikler
+                    </h2>
+                    <ul>
+                        <li><b>Araç Türü : </b>SUV</li>
+                        <li><b>Çıkış Tarihi : </b>2021</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--MainEnd-->
+
+
+    <!--FooterStart-->
+    <footer>
+        <div>
+            <h2><b>Silent Power / 2023</b></h2>
+        </div>
+    </footer>
+    <!--FooterEnd-->
+</body>
+</html>

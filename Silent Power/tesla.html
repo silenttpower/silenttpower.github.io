@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silent Power | Tesla</title>
+    <style>
+        body{
+            margin: 0;
+            background-color: seagreen;
+            font-family: 'Roboto Condensed', sans-serif;
+            overflow-x: hidden;
+        }
+
+        /**********NavbarStart**********/
+        .navbar {
+            list-style-type: none;
+            overflow: hidden;
+            background-color: black;
+            position: sticky;
+            top: 0;
+            width: 100%;
+        }
+
+        .navbar > li a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 15px 40px;
+            text-decoration: none;
+            width: 100px;
+            height: 20px;
+        }
+
+        .navbar>li a:hover {
+            background-color: seagreen;
+        }
+        /**********NavbarEnd**********/
+
+
+        /**********MainStart**********/
+        .title{
+            text-align: center;
+            margin: 40px;
+            color: white;
+            font-size: 75px;
+        }
+
+        .heading2{
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .car{
+            display: table-caption;
+            background-color: seagreen;
+            padding: 20px;
+            border-radius: 20px;
+            margin: 10px;
+            margin-bottom: 50px;
+        }
+
+        .car>img{
+            display: inline;
+            width: 400px;
+            height: 250px;
+            border-radius: 20px;
+        }
+
+        .cartext{
+            float: center;
+            font-size: 50px;
+            text-align: center;
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+
+        .cargroup{
+            background-color: white;
+            border-radius: 20px;
+            padding-bottom: 10px;
+            display: flex;
+            overflow-y: scroll;
+            /* To turn off text selection while scrolling the scrollbar */
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -o-user-select: none;
+            user-select: none;
+        }
+        /**********MainEnd**********/
+
+
+        /**********FooterStart**********/
+        footer {
+            text-align: center;
+            display: inline-block;
+            width: 100%;
+            background-color: gray;
+            padding: 30px;
+        }
+        /**********FooterEnd**********/
+
+
+        /**********MobileViewStart**********/
+         @media screen and (max-width: 1160px) {
+            body{
+                background-color: white;
+            }
+
+            .cargroup{
+                border-radius: 0px;
+            }
+
+            .car{
+                margin: 0px;
+                border-radius: 0px;
+                margin-right: 5px;
+            }
+            .navbar{
+                position: relative;
+            }
+
+            .title{
+                font-size: 50px;
+                color: black;
+            }
+
+            footer{
+                padding: 0px;
+            }
+         }
+        /**********MobileViewEnd**********/
+    </style>
+</head>
+
+<body>
+    <!--NavbarStart-->
+    <nav class="navbar">
+        <li>
+            <a href="index.html">Ana Sayfa</a>
+        </li>
+        <li>
+            <a href="news.html">Haberler</a>
+        </li>
+        <li>
+            <a href="index.html#cars">Otomobiller</a>
+        </li>
+        <li>
+            <a href="about-us.html">Hakkımızda</a>
+        </li>
+        <li>
+            <a href="index.html#communication">İletişim</a>
+        </li>
+    </nav>
+    <!--NavbarEnd-->
+
+
+    <!--MainStart-->
+    <main>
+            <h1 class="title">
+        Tesla Otomobiller
+    </h1>
+        <div class="cargroup">
+            <div class="car">
+
+
+                <!--Model S-->
+                <img width="300" src="https://tesla-cdn.thron.com/delivery/public/image/tesla/9ed31f26-4d49-4701-bc5b-2121ff85e5b3/bvlatuR/std/2880x1800/Model-S-Main-Hero-Desktop-LHD?quality=auto-medium&amp;format=auto" alt="">
+                <h2 class="heading2">
+                    Model S
+                </h2>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Güç ve Hız
+                    </h2>
+                    <ul>
+                        <li><b>Motor Gücü : </b>492 kW</li>
+                        <li><b>Tork : </b> 720 Nm</li>
+                        <li><b>Azami Hız : </b>250 km/h</li>
+                        <li><b>Motor Sayısı : </b>Çift Motor</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Batarya ve Şarj
+                    </h2>
+                    <ul>
+                        <li><b>Batara : </b>100 kWh</li>
+                        <li><b>Menzil : </b>652 km</li>
+                        <li><b>DC Şarj Hızı : </b>250 kW</li>
+                        <li><b>AC Şarj Hızı : </b>11 kW</li>
+                        <li><b>Ortalama Tüketim : </b>17.4kWh/100 km</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Araç Ölçüleri
+                    </h2>
+                    <ul>
+                        <li><b>Ağırlık : </b>2069 kg</li>
+                        <li><b>Bagaj Hacmi : </b>793 L</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Ekstra Özellikler
+                    </h2>
+                    <ul>
+                        <li><b>Araç Türü : </b>Sedan</li>
+                        <li><b>Çıkış Tarihi : </b>2021</li>
+                        <li><b>Otonom Sürüş : </b>Tesla Autopilot</li>
+                        <li><b>Güvenlik : </b>Tesla Sentry Mode</li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <!--Modeel 3-->
+            <div class="car">
+                <img width="300" src="https://tesla-cdn.thron.com/delivery/public/image/tesla/5a7b3001-249f-4065-a330-4ea6a17ccf7b/bvlatuR/std/2560x1708/Model-3-Main-Hero-Desktop-LHD" alt="">
+                <h2 class="heading2">
+                    Model 3
+                </h2>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Güç ve Hız
+                    </h2>
+                    <ul>
+                        <li><b>Motor Gücü : </b>334  kW</li>
+                        <li><b>Tork : </b>660 Nm</li>
+                        <li><b>Azami Hız : </b>261 km/h</li>
+                        <li><b>Motor Sayısı : </b>Çift Motor</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Batarya ve Şarj
+                    </h2>
+                    <ul>
+                        <li><b>Batara : </b>75 kWh</li>
+                        <li><b>Menzil : </b>567 km</li>
+                        <li><b>DC Şarj Hızı : </b>250 kW</li>
+                        <li><b>AC Şarj Hızı : </b>11 kW</li>
+                        <li><b>Ortalama Tüketim : </b>18.5 kWh/100km</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Araç Ölçüleri
+                    </h2>
+                    <ul>
+                        <li><b>Ağırlık : </b>1844 kg</li>
+                        <li><b>Bagaj Hacmi : </b>542 L</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Ekstra Özellikler
+                    </h2>
+                    <ul>
+                        <li><b>Araç Türü : </b>Sedan</li>
+                        <li><b>Çıkış Tarihi : </b>2020</li>
+                        <li><b>Otonom Sürüş : </b>Tesla Autopilot</li>
+                        <li><b>Güvenlik : </b>Tesla Sentry Mode</li>
+                    </ul>
+                </div>
+            </div>
+
+            
+            <!--Model X-->
+            <div class="car">
+                <img width="300" src="https://tesla-cdn.thron.com/delivery/public/image/tesla/37612e96-a8a7-46ea-9847-4fff683483b0/bvlatuR/std/2880x1800/Model-X-Main-Hero-Desktop-LHD?quality=auto-medium&amp;format=auto" alt="">
+                <h2 class="heading2">
+                    Model X
+                </h2>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Güç ve Hız
+                    </h2>
+                    <ul>
+                        <li><b>Motor Gücü : </b>492 kW</li>
+                        <li><b>Tork : </b> 720 Nm</li>
+                        <li><b>Azami Hız : </b>250 km/h</li>
+                        <li><b>Motor Sayısı : </b>Çift Motor</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Batarya ve Şarj
+                    </h2>
+                    <ul>
+                        <li><b>Batara : </b>100 kWh</li>
+                        <li><b>Menzil : </b>580 km</li>
+                        <li><b>DC Şarj Hızı : </b>250 kW</li>
+                        <li><b>AC Şarj Hızı : </b>11 kW</li>
+                        <li><b>Ortalama Tüketim : </b>19.9 kWh/100km</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Araç Ölçüleri
+                    </h2>
+                    <ul>
+                        <li><b>Ağırlık : </b>2352 kg</li>
+                        <li><b>Bagaj Hacmi : </b>603 L</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Ekstra Özellikler
+                    </h2>
+                    <ul>
+                        <li><b>Araç Türü : </b>SUV</li>
+                        <li><b>Çıkış Tarihi : </b>2021</li>
+                        <li><b>Otonom Sürüş : </b>Tesla Autopilot</li>
+                        <li><b>Güvenlik : </b>Tesla Sentry Mode</li>
+                    </ul>
+                </div>
+            </div>
+            
+
+            <!--Model Y-->
+            <div class="car">
+                <img width="300" src="https://tesla-cdn.thron.com/delivery/public/image/tesla/91abd4c7-32a1-41cc-ade5-b64774dbea61/bvlatuR/std/2880x1800/Model-Y-Main-Hero-Desktop-Global?quality=auto-medium&amp;format=auto" alt="">
+                <h2 class="heading2">
+                    Model Y
+                </h2>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Güç ve Hız
+                    </h2>
+                    <ul>
+                        <li><b>Motor Gücü : </b>335 kW</li>
+                        <li><b>Tork : </b>643 Nm</li>
+                        <li><b>Azami Hız : </b>241 km/h</li>
+                        <li><b>Motor Sayısı : </b>Çift Motor</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Batarya ve Şarj
+                    </h2>
+                    <ul>
+                        <li><b>Batara : </b>80 kWh</li>
+                        <li><b>Menzil : </b>480 km</li>
+                        <li><b>DC Şarj Hızı : </b>250 kW</li>
+                        <li><b>AC Şarj Hızı : </b>11 kW</li>
+                        <li><b>Ortalama Tüketim : </b>16.6kWh/100 km</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Araç Ölçüleri
+                    </h2>
+                    <ul>
+                        <li><b>Ağırlık : </b>2003 kg</li>
+                        <li><b>Bagaj Hacmi : </b>854 L</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Ekstra Özellikler
+                    </h2>
+                    <ul>
+                        <li><b>Araç Türü : </b>SUV</li>
+                        <li><b>Çıkış Tarihi : </b>2020</li>
+                        <li><b>Otonom Sürüş : </b>Tesla Autopilot</li>
+                        <li><b>Güvenlik : </b>Tesla Sentry Mode</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--MainEnd-->
+
+    
+    <!--FooterStart-->
+    <footer>
+        <div>
+            <h2><b>Silent Power / 2023</b></h2>
+        </div>
+    </footer>
+    <!--FooterEnd-->
+</body>
+</html>

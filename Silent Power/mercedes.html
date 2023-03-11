@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silent Power | Mercedes</title>
+    <style>
+        body{
+            margin: 0;
+            background-color: seagreen;
+            font-family: 'Roboto Condensed', sans-serif;
+            overflow-x: hidden;
+        }
+
+        /**********NavbarStart**********/
+        .navbar {
+            list-style-type: none;
+            overflow: hidden;
+            background-color: black;
+            position: sticky;
+            top: 0;
+            width: 100%;
+        }
+
+        .navbar > li a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 15px 40px;
+            text-decoration: none;
+            width: 100px;
+            height: 20px;
+        }
+
+        .navbar>li a:hover {
+            background-color: seagreen;
+        }
+        /**********NavbarEnd**********/
+
+
+        /**********MainStart**********/
+        .title{
+            text-align: center;
+            margin: 40px;
+            color: white;
+            font-size: 75px;
+        }
+
+        .heading2{
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .car{
+            display: table-caption;
+            background-color: seagreen;
+            padding: 20px;
+            border-radius: 20px;
+            margin: 10px;
+            margin-bottom: 50px;
+        }
+
+        .car>img{
+            display: inline;
+            width: 400px;
+            height: 250px;
+            border-radius: 20px;
+        }
+
+        .cartext{
+            float: center;
+            font-size: 50px;
+            text-align: center;
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+
+        .cargroup{
+            background-color: white;
+            border-radius: 20px;
+            padding-bottom: 10px;
+            display: flex;
+            overflow-y: scroll;
+            /* To turn off text selection while scrolling the scrollbar */
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -o-user-select: none;
+            user-select: none;
+        }
+        /**********MainEnd**********/
+
+
+        /**********FooterStart**********/
+        footer {
+            text-align: center;
+            display: inline-block;
+            width: 100%;
+            background-color: gray;
+            padding: 30px;
+        }
+        /**********FooterEnd**********/
+
+
+        /**********MobileViewStart**********/
+         @media screen and (max-width: 1160px) {
+            body{
+                background-color: white;
+            }
+
+            .cargroup{
+                border-radius: 0px;
+            }
+
+            .car{
+                margin: 0px;
+                border-radius: 0px;
+                margin-right: 5px;
+            }
+            .navbar{
+                position: relative;
+            }
+
+            .title{
+                font-size: 50px;
+                color: black;
+            }
+
+            footer{
+                padding: 0px;
+            }
+         }
+        /**********MobileViewEnd**********/ 
+    </style>
+</head>
+
+<body>
+    <!--NavbarStart-->
+    <nav class="navbar">
+        <li>
+            <a href="index.html">Ana Sayfa</a>
+        </li>
+        <li>
+            <a href="news.html">Haberler</a>
+        </li>
+        <li>
+            <a href="index.html#cars">Otomobiller</a>
+        </li>
+        <li>
+            <a href="about-us.html">Hakkımızda</a>
+        </li>
+        <li>
+            <a href="index.html#communication">İletişim</a>
+        </li>
+    </nav>
+    <!--NavbarEnd-->
+
+    <!--MainStart-->
+    <main>
+            <h1 class="title">
+        Mercedes Otomobiller
+    </h1>
+        <div class="cargroup">
+
+
+            <!--EQA-->
+            <div class="car">
+                <img width="400" height="225" src="https://assets.oneweb.mercedes-benz.com/iris/iris.jpg?COSY-EU-100-1713d0VXqNEFqtyO67PobzIr3eWsrrCsdRRzwQZg9BZbMw3SGtGyStsd2sDcUfp8fXGEuiRJ0l3ItOB2NQObApjtwI5ux5xQC31srkzNwtnm7jAc3hKViKh%25vq4vZyLRgnXYaxPoVrH1entn8wYOxoiZr7YM4FnTrTg95z36PDCLuSeWznMtsd7kdcUfi%25cXGE4nXJ0lgorOB2PSFbApeIoI5usKxQC3UvWkzNp%25bm7jucZhKVHKh%25vq8cXyr%25kWfDFQJ0lCrnOIJRdAbQOX0wI5ug6FQC3Ah3kzN5%256m7jdl6hKVvKt%25vqLUkyLRaGHYaxHoErH18IOn8wiVyoiCpBxySfD2Mpg32YORZbMFwRPPW3SN9hFNTmj32v2bwbU15zsRG1gdPNYFN&imgt=P27&bkgnd=9&pov=BE040&uni=cs&im=Crop,rect=(0,-25,1370,770),gravity=Center;Resize,width=400" alt="">
+                <h2 class="heading2">
+                    EQA
+                </h2>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Güç ve Hız
+                    </h2>
+                    <ul>
+                        <li><b>Motor Gücü : </b>167 kW</li>
+                        <li><b>Tork : </b>390 Nm</li>
+                        <li><b>Azami Hız : </b>160 km/h</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Batarya ve Şarj
+                    </h2>
+                    <ul>
+                        <li><b>Batara : </b>66.5 kWh</li>
+                        <li><b>Menzil : </b>426 km</li>
+                        <li><b>DC Şarj Hızı  : </b>100 kW</li>
+                        <li><b>AC Şarj Hızı : </b>11 kW </li>
+                        <li><b>Ortalama Tüketim (kWh/100km) : </b>17.6 kWh/100km kWh</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Araç Ölçüleri
+                    </h2>
+                    <ul>
+                        <li><b>Ağırlık : </b>2040 kg</li>
+                        <li><b>Bagaj Hacmi : </b>340 L</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Ekstra Özellikler
+                    </h2>
+                    <ul>
+                        <li><b>Araç Türü : </b>SUV</li>
+                        <li><b>Çıkış Tarihi : </b>2021</li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <!--EQB-->
+            <div class="car">
+                <img width="400" height="225" src="https://assets.oneweb.mercedes-benz.com/iris/iris.jpg?COSY-EU-100-1713d0VXqNEFqtyO67PobzIr3eWsrrCsdRRzwQZg9BZbMw3SGtGyStsd2sDcUfp8fXGEuiRJ0l3ItOB2NQObApjtwI5ux5xQC31srkzNwtnm7jA7mhKV5XN%25vq4t9yLRgLyYaxPa9rH1eMOn8wsTRoiZUMXM4FnIwTg9ovn6PDMSoSeWzKjtsd7HNcUfKM6XGEvhEJ0lgYJOB2PMObApeToI5uscDQC3UkTkzNGLwm7j0afhKV3YQ%25vqNJ9yLRiXJYnymdEW9kOB2znobQOxf5IkbJBZQC3PS9kzN5%25Nm7jCyShKVf2S%25vqLvcyLRaGmYaxH08rH18Mln8wiQboiZ4qYM4zuA1YtEWpTuPNp1bxFIT9ZxeedNtjD%259j6hVNpLpIZIGwC7Ux0wPfejr9j&imgt=P27&bkgnd=9&pov=BE040&uni=cs&im=Crop,rect=(0,-25,1370,770),gravity=Center;Resize,width=400" alt="">
+                <h2 class="heading2">
+                    EQB
+                </h2>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Güç ve Hız
+                    </h2>
+                    <ul>
+                        <li><b>Motor Gücü : </b>167 kW</li>
+                        <li><b>Tork : </b>390 Nm</li>
+                        <li><b>Azami Hız : </b>160 km/h</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Batarya ve Şarj
+                    </h2>
+                    <ul>
+                        <li><b>Batara : </b>66.5 kWh</li>
+                        <li><b>Menzil : </b>419 km</li>
+                        <li><b>DC Şarj Hızı  : </b>100 kW</li>
+                        <li><b>AC Şarj Hızı : </b>11 kW</li>
+                        <li><b>Ortalama Tüketim (kWh/100km) : </b>18.1 kWh</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Araç Ölçüleri
+                    </h2>
+                    <ul>
+                        <li><b>Ağırlık : </b>2715 kg</li>
+                        <li><b>Bagaj Hacmi : </b>495 L</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Ekstra Özellikler
+                    </h2>
+                    <ul>
+                        <li><b>Araç Türü : </b>SUV</li>
+                        <li><b>Çıkış Tarihi : </b>2021</li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <!--EQC-->
+            <div class="car">
+                <img width="400" height="225" src="https://assets.oneweb.mercedes-benz.com/iris/iris.jpg?COSY-EU-100-1713d0VXq5q3qtyO67PobzIr3eWsrrCsdRRzwQZUnRZbMw3SGtGyItsd2HtcUfp8qXGEubYJ0l3DAOB2NS1bApj7oI5uxoMQC31MjkzNBT6m7jA7jhKV5YL%25vqCu%25yLRgcDYaxPXSrH1eHrn8wsocoiZr51M4FnSrTg9o6n6PDC76SeWHmItsd8s3cUfiONXGE4bBJ0lg6tOB2PSObApetCI5uscDQC3UkTkzNGLwm7j0afhKVHtc%25YhQDd9ZIXGE5YrJbXqWBOIJcG%25bApPdbI5ugecQC3ACWkzN5Pnm7jCyfhKVzYt%25vq7pfyLRlA2YaxHahrH18HOn8wiA2oiZ47pM4FgTrTg735wrcldu63eSutha9Q6DF1ssfjcVWyDVS%25qjuauQFQ0ZzKG1BZeEsVnDV&imgt=P27&bkgnd=9&pov=BE040&uni=cs&im=Crop,rect=(0,-25,1370,770),gravity=Center;Resize,width=400" alt="">
+                <h2 class="heading2">
+                    EQC
+                </h2>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Güç ve Hız
+                    </h2>
+                    <ul>
+                        <li><b>Motor Gücü : </b>300 kW</li>
+                        <li><b>Tork : </b>760 Nm</li>
+                        <li><b>Azami Hız : </b>180 km/h</li>
+                        <li><b>0-100 Hızlanma Süresi : </b>5.1 saniye</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Batarya ve Şarj
+                    </h2>
+                    <ul>
+                        <li><b>Batara : </b>80 kWh</li>
+                        <li><b>Menzil : </b>462 km</li>
+                        <li><b>DC Şarj Hızı : </b>110 kW</li>
+                        <li><b>AC Şarj Hızı : </b>11 kW</li>
+                        <li><b>Ortalama Tüketim (kWh/100km) : </b>20.8 kWh</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Araç Ölçüleri
+                    </h2>
+                    <ul>
+                        <li><b>Ağırlık : </b>2495 kg</li>
+                        <li><b>Bagaj Hacmi : </b>500 L</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Ekstra Özellikler
+                    </h2>
+                    <ul>
+                        <li><b>Araç Türü : </b>SUV</li>
+                        <li><b>Çıkış Tarihi : </b>2020</li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <!--EQE-->
+            <div class="car">
+                <img width="400" height="225" src="https://assets.oneweb.mercedes-benz.com/iris/iris.jpg?COSY-EU-100-1713d0VXqNEFqtyO67PobzIr3eWsrrCsdRRzwQZUnRZbMw3SGtGyStsd2HtcUfp8qXGEubmJ0l3ItOB2NQnbApjtwI5uVKuQC3qvTkzNwT6m7jZeohKVFXM%25vqCv%25yLRz3RYaxPXWrH1eJtn8ws8WoiZUMNM4FGQJTg90b96PDM1bSeWTtMtsd7oTcUfKmfXGE4yXJ0lg0VOB2PWEbApetlI5usQYQC3UkTkzNGLnm7j0afhKVHtc%25YhQDd9ZIXGE5YrJbXqWBOIJcG%25bApPnlI5ug6FQC3AgTkzNW5pm7jKeIhKVvsW%25vqLUayL0fsjko9wdYfHreHtNRcYxqN88Zlo21Ix2rbpldCdcqcgVGB4NPVHF82mx2&imgt=P27&bkgnd=9&pov=BE040&uni=cs&im=Crop,rect=(0,-25,1370,770),gravity=Center;Resize,width=400" alt="">
+                <h2 class="heading2">
+                    EQE
+                </h2>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Güç ve Hız
+                    </h2>
+                    <ul>
+                        <li><b>Motor Gücü : </b>180 kW</li>
+                        <li><b>Tork : </b>550 Nm</li>
+                        <li><b>Azami Hız : </b>210 km/h</li>
+                        <li><b>0-100 Hızlanma Süresi : </b>7.3 saniye</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Batarya ve Şarj
+                    </h2>
+                    <ul>
+                        <li><b>Batara : </b>89 kWh</li>
+                        <li><b>Menzil : </b>616 km</li>
+                        <li><b>DC Şarj Hızı : </b>170 kW</li>
+                        <li><b>AC Şarj Hızı : </b>11 kW</li>
+                        <li><b>Ortalama Tüketim (kWh/100km) : </b>16.7 kWh</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Araç Ölçüleri
+                    </h2>
+                    <ul>
+                        <li><b>Ağırlık : </b>2495 kg</li>
+                        <li><b>Bagaj Hacmi : </b>430 L</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Ekstra Özellikler
+                    </h2>
+                    <ul>
+                        <li><b>Araç Türü : </b>Sedan</li>
+                        <li><b>Çıkış Tarihi : </b>2022</li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <!--EQS-->
+            <div class="car">
+                <img width="400" height="225" src="https://assets.oneweb.mercedes-benz.com/iris/iris.jpg?COSY-EU-100-1713d0VXq0YFqtyO67PobzIr3eWsrrCsdRRzwQZUnRZbMw3SGtGyStsd2vtcUfp8cXGEuiRJ0l3IrOB2NzObApRAlI5ux4uQC31SrkzNwL6m7jA6ohKV5SQ%25vqCv%25yLRzA2Yax7oxrH1eJtn8ws8WoiZU7pM4FGTJTg906V6PDBmbSeWAQWtsd6cTcUfKM6XGEvTRJ0lL6qOB2ay2bApenbI5us5xQC3Uh1kzNG%25Zm7j0hShKVBHM%25vqA8qyLRiXJYnymdEW9kOB2znobQOxf5IkbJBYQC3sMpkzNetDm7jCeohKVzst%25vq7J%25yLRKJ9Yax2P7rH18Bln8wiA4oiCpBxySfD2MpgT5g9BZbMFwRPPW3SN9hFNTmj32v2bwbU15zsRG1gdPNYFN&imgt=P27&bkgnd=9&pov=BE040&uni=cs&im=Crop,rect=(0,-25,1370,770),gravity=Center;Resize,width=400" alt="">
+                <h2 class="heading2">
+                    EQS
+                </h2>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Güç ve Hız
+                    </h2>
+                    <ul>
+                        <li><b>Motor Gücü : </b>384 kW</li>
+                        <li><b>Tork : </b>855 Nm</li>
+                        <li><b>Azami Hız : </b>210 km/h</li>
+                        <li><b>0-100 Hızlanma Süresi : </b>4.3 saniye</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Batarya ve Şarj
+                    </h2>
+                    <ul>
+                        <li><b>Batara : </b>108 kWh</li>
+                        <li><b>Menzil : </b>676 km</li>
+                        <li><b>DC Şarj Hızı : </b>200 kW</li>
+                        <li><b>AC Şarj Hızı : </b>22 kW</li>
+                        <li><b>Ortalama Tüketim (kWh/100km) : </b>18.4 kWh</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Araç Ölçüleri
+                    </h2>
+                    <ul>
+                        <li><b>Ağırlık : </b>2585 kg</li>
+                        <li><b>Bagaj Hacmi : </b>610 L</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="features">
+                    <h2>
+                        Ekstra Özellikler
+                    </h2>
+                    <ul>
+                        <li><b>Araç Türü : </b>Sedan</li>
+                        <li><b>Çıkış Tarihi : </b>2021</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--MainEnd-->
+
+
+    <!--FooterStart-->
+    <footer>
+        <div>
+            <h2><b>Silent Power / 2023</b></h2>
+        </div>
+    </footer>
+    <!--FooterEnd-->
+</body>
+</html>

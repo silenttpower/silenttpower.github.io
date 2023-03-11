@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silent Power | Hakkımızda</title>
+    <style>
+        body{
+            margin: 0;
+            background-color: seagreen;
+            font-family: 'Roboto Condensed', sans-serif;
+            overflow-x: hidden;
+        }
+
+
+        /**********NavbarStart**********/
+        .navbar {
+            list-style-type: none;
+            overflow: hidden;
+            height: 50%;
+            background-color: black;
+        }
+
+        .navbar > li a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 15px 40px;
+            text-decoration: none;
+            width: 100px;
+            height: 20px;
+        }
+
+        .navbar>li a:hover {
+            background-color: seagreen;
+        }
+        /**********NavbarEnd**********/
+
+
+        /**********MainStart**********/
+        .title{
+            color: white;
+            text-align: center;
+            margin: 40px;
+            font-style: italic;
+            text-decoration: underline;
+            font-size: 75px;
+        }
+
+        .text{
+            color: white;
+            margin-inline: 40px;
+            font-size: 30px;
+            margin-bottom: 450px;
+        }
+        /**********MainEnd**********/
+
+
+        /**********FooterStart**********/
+        footer {
+            text-align: center;
+            display: inline-block;
+            width: 100%;
+            background-color: gray;
+            padding: 30px;
+        }
+        /**********FooterEnd**********/
+
+
+        /**********MobileViewStart**********/
+         @media screen and (max-width: 1160px) {
+            body{
+                background-color: seagreen;
+            }
+
+            .navbar{
+                position: relative;
+            }
+
+            .title{
+                font-size: 40px;
+            }
+
+            .text{
+                font-size: 25px;
+            }
+
+            footer{
+                padding: 0px;
+            }
+         }
+        /**********MobileViewEnd**********/ 
+    </style>
+</head>
+
+<body>
+    <!--NavbarStart-->
+    <nav class="navbar">
+        <li>
+            <a href="index.html">Ana Sayfa</a>
+        </li>
+        <li>
+            <a href="news.html">Haberler</a>
+        </li>
+        <li>
+            <a href="index.html">Otomobiller</a>
+        </li>
+        <li>
+            <a href="about-us.html">Hakkımızda</a>
+        </li>
+        <li>
+            <a href="index.html#communication">İletişim</a>
+        </li>
+    </nav>
+    <!--NavbarEnd-->
+
+
+    <!--MainStart-->
+    <main>
+        <h1 class="title">
+            Hakkımızda
+        </h1>
+        <div class="text">
+            <p>
+                Bu site 2023 yılında, elektrikli araçlar hakkında insanları daha fazla bilgilendirmek için kurulmuştur. EPA verilerine göre 2010 küresel sera gazı emisyonlarının %14'ü bu sektörden kaynaklanan sera gazı emisyonları öncelikle karayolu, demiryolu, hava ve deniz taşımacılığı için yakılan fosil yakıtları içermektedir. Gün geçtikte elektrikli araçlar hayatımızda daha fazla yer alıyor. 2035 yılında fosil yakıtlı araçların yasaklanmasıyla beraber fosil yakıtlı araçların tamamen hayatımızdan çıkacağını düşünüyoruz. Ülkemizde elektrikli araçlar hakkında fazla ön yargı ve yanlış bilgi olduğunu gördük ve bu siteyi kurduk.
+            </p>
+        </div>
+    </main>
+    <!--MainEnd-->
+
+
+    <!--FooterStart-->
+    <footer>
+        <div>
+            <h2><b>Silent Power / 2023</b></h2>
+        </div>
+    </footer>
+    <!--FooterEnd-->
+</body>
+</html>
